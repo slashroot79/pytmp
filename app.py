@@ -1,6 +1,7 @@
 import os
 
 import requests as rq
+import pandas as pd
 
 from flask import (Flask, redirect, render_template, request,
                    send_from_directory, url_for)
